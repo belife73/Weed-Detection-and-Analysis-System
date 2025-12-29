@@ -1,0 +1,45 @@
+2025-12-29 08:15:51,922 - TestLogger - INFO - === 开始测试杂草识别与分析系统核心功能 ===
+2025-12-29 08:15:51,922 - TestLogger - INFO - 生成测试图像
+2025-12-29 08:15:51,926 - TestLogger - INFO - 初始化杂草检测器
+2025-12-29 08:15:51,926 - WeedDetector - INFO - 杂草检测系统初始化完成
+2025-12-29 08:15:51,926 - TestLogger - INFO - 开始处理测试图像
+2025-12-29 08:15:51,926 - WeedDetector - INFO - 开始处理图像
+2025-12-29 08:15:52,056 - WeedDetector - ERROR - 图像处理失败: 输入必须是轮廓列表
+Traceback (most recent call last):
+  File "/root/fenXi_system/core/weed_detector.py", line 115, in process_single_image
+    self.filtered_contours = self.feature_analyzer.filter_contours_by_area(self.contours)
+  File "/root/fenXi_system/core/feature_analysis.py", line 109, in filter_contours_by_area
+    raise ValueError("输入必须是轮廓列表")
+ValueError: 输入必须是轮廓列表
+2025-12-29 08:16:19,943 - TestLogger - INFO - === 开始测试杂草识别与分析系统核心功能 ===
+2025-12-29 08:16:19,944 - TestLogger - INFO - 生成测试图像
+2025-12-29 08:16:19,947 - TestLogger - INFO - 初始化杂草检测器
+2025-12-29 08:16:19,948 - WeedDetector - INFO - 杂草检测系统初始化完成
+2025-12-29 08:16:19,948 - TestLogger - INFO - 开始处理测试图像
+2025-12-29 08:16:19,948 - WeedDetector - INFO - 开始处理图像
+2025-12-29 08:16:20,070 - WeedDetector - INFO - 图像处理完成
+2025-12-29 08:16:20,071 - TestLogger - INFO - 生成标注图像
+2025-12-29 08:16:20,074 - TestLogger - INFO - 保存测试结果
+2025-12-29 08:16:20,082 - TestLogger - INFO - === 测试结果摘要 ===
+2025-12-29 08:16:20,083 - TestLogger - INFO - 杂草数量: 5
+2025-12-29 08:16:20,083 - TestLogger - INFO - 覆盖度: 9.03%
+2025-12-29 08:16:20,083 - TestLogger - INFO - 平均圆度: 0.5560
+2025-12-29 08:16:20,083 - TestLogger - INFO - 平均长宽比: 0.4817
+2025-12-29 08:16:20,083 - TestLogger - INFO - === 所有测试完成！===
+2025-12-29 08:17:54,971 - WeedDetector - INFO - 杂草检测系统初始化完成
+2025-12-29 08:18:57,942 - TestLogger - INFO - === 开始测试杂草识别与分析系统核心功能 ===
+2025-12-29 08:18:57,942 - TestLogger - INFO - 生成测试图像
+2025-12-29 08:18:57,946 - TestLogger - INFO - 初始化杂草检测器
+2025-12-29 08:18:57,947 - WeedDetector - INFO - 杂草检测系统初始化完成
+2025-12-29 08:18:57,947 - TestLogger - INFO - 开始处理测试图像
+2025-12-29 08:18:57,947 - WeedDetector - INFO - 开始处理图像
+2025-12-29 08:18:58,194 - WeedDetector - INFO - 图像处理完成
+2025-12-29 08:18:58,194 - TestLogger - INFO - 生成标注图像
+2025-12-29 08:18:58,196 - TestLogger - INFO - 保存测试结果
+2025-12-29 08:18:58,203 - TestLogger - INFO - === 测试结果摘要 ===
+2025-12-29 08:18:58,203 - TestLogger - INFO - 杂草数量: 5
+2025-12-29 08:18:58,203 - TestLogger - INFO - 覆盖度: 9.03%
+2025-12-29 08:18:58,203 - TestLogger - INFO - 平均圆度: 0.5560
+2025-12-29 08:18:58,203 - TestLogger - INFO - 平均长宽比: 0.4817
+2025-12-29 08:18:58,203 - TestLogger - INFO - === 所有测试完成！===
+2025-12-29 08:25:48,009 - WeedDetector - INFO - 杂草检测系统初始化完成
